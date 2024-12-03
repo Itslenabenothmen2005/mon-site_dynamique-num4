@@ -1,0 +1,54 @@
+#img1 {
+  width: 10vw;
+  height: 100px;
+  float: left;
+}
+#img2 {
+  width: 10vw;
+  height: 100px;
+  float: right;
+}
+div {
+  width: 5vw;
+  height: 50px;
+  border-radius: 180px;
+  background-color: blue;
+ float: left;
+ 
+ 
+}
+div:hover{
+   transform: translateX(1000%);
+   background-color: aqua;
+   transition: all 2s;
+}
+
+
+iframe{
+    display: block;
+    width: 50vw;
+    border: none;
+    margin:auto;
+}
+body{
+  background-color: antiquewhite;
+}
+input,textarea{
+  background-color: blue;
+  margin-bottom: 15px;
+
+}
+.bt{
+  width: 150px;
+  border: slategrey; 
+}
+#bt1{
+  margin-left: 150px;
+  width: 150px;
+  border: slategrey;
+}
+#zone2{
+  width: 800px;
+  height: 500px;
+  border: solid black;
+}

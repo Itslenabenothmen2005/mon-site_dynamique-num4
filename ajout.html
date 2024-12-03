@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="controle.js"></script>
+  </head>
+  <body>
+      <form onsubmit="return verif1()">
+    <fieldset>
+        <legend>Ajout d'une reclamation</legend>
+        <label>tél client:</label><input type="text" id="tel" name="tel"/></br>
+        <label>catégorie</label><select id="cat" name="cat" ><option>choisir une catégorie</option>
+            <option>authentification</option>
+            <option>branchement</option>
+            <option>synchronisation</option>
+            <option>autres</option>
+        </select></br>
+        <label>description</label></br>
+        <textarea cols="50" rows="5" name="desc" id="desc"></textarea></br>
+        <input type="submit" value="ajouter" id="bt1" class="bt1">
+        <input type="reset" value="annuler"  class="bt">
+    </fieldset></form>
+  </body>
+</html>
